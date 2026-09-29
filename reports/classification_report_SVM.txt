@@ -1,0 +1,10 @@
+Classification Report: SVM
+==================================================
+              precision    recall  f1-score   support
+
+  legitimate       0.72      0.29      0.42       858
+    phishing       0.55      0.88      0.67       831
+
+    accuracy                           0.58      1689
+   macro avg       0.63      0.59      0.55      1689
+weighted avg       0.63      0.58      0.54      1689

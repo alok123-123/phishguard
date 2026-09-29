@@ -1,0 +1,10 @@
+Classification Report: RandomForest
+==================================================
+              precision    recall  f1-score   support
+
+  legitimate       0.96      0.95      0.96       858
+    phishing       0.95      0.96      0.96       831
+
+    accuracy                           0.96      1689
+   macro avg       0.96      0.96      0.96      1689
+weighted avg       0.96      0.96      0.96      1689

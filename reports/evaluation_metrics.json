@@ -1,0 +1,64 @@
+{
+  "RandomForest": {
+    "model_name": "RandomForest",
+    "accuracy": 0.9574,
+    "precision": 0.9574,
+    "recall": 0.9574,
+    "f1_score": 0.9574,
+    "confusion_matrix": [
+      [
+        818,
+        40
+      ],
+      [
+        32,
+        799
+      ]
+    ],
+    "prec_per_class": [
+      0.9623529411764706,
+      0.9523241954707986
+    ],
+    "rec_per_class": [
+      0.9533799533799534,
+      0.9614921780986763
+    ],
+    "f1_per_class": [
+      0.9578454332552693,
+      0.9568862275449102
+    ],
+    "roc_auc": 0.991,
+    "average_precision": 0.9907
+  },
+  "SVM": {
+    "model_name": "SVM",
+    "accuracy": 0.582,
+    "precision": 0.6333,
+    "recall": 0.582,
+    "f1_score": 0.543,
+    "confusion_matrix": [
+      [
+        251,
+        607
+      ],
+      [
+        99,
+        732
+      ]
+    ],
+    "prec_per_class": [
+      0.7171428571428572,
+      0.5466766243465273
+    ],
+    "rec_per_class": [
+      0.2925407925407925,
+      0.8808664259927798
+    ],
+    "f1_per_class": [
+      0.4155629139072848,
+      0.6746543778801843
+    ],
+    "roc_auc": 0.767,
+    "average_precision": 0.7533
+  }
+}

@@ -1,0 +1,54 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Virtual environments ───
+venv/
+env/
+.venv/
+.env/
+
+# ─── IDE and editor files ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Datasets (too large for Git) ───
+data/*.csv
+data/*.zip
+data/*.xlsx
+
+# ─── Trained model files (large binary files) ───
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# ─── Reports (generated, not source) ───
+reports/*.png
+reports/*.html
+
+# ─── Jupyter notebook checkpoints ───
+.ipynb_checkpoints/
+
+# ─── Environment variables and secrets ───
+.env
+*.secret
+*.key
+
+# ─── Streamlit cache ───
+.streamlit/secrets.toml
+
+# ─── pytest cache ───
+.pytest_cache/

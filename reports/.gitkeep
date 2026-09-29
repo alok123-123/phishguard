@@ -1,0 +1,13 @@
+# This file keeps the reports/ directory in Git even though it's empty.
+# Generated reports (.png, .json, .txt) are listed in .gitignore.
+# After running evaluation, this folder will contain:
+#   - confusion_matrix_RandomForest.png
+#   - confusion_matrix_XGBoost.png
+#   - confusion_matrix_LightGBM.png
+#   - confusion_matrix_SVM.png
+#   - roc_curves.png
+#   - model_comparison.png
+#   - precision_recall_curves.png
+#   - shap_global_importance.png
+#   - evaluation_metrics.json
+#   - classification_report_*.txt

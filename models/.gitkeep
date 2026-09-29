@@ -1,0 +1,15 @@
+# This file keeps the models/ directory in Git even though it's empty.
+# Trained model files (.joblib) are listed in .gitignore.
+# After training, this folder will contain:
+#   - RandomForest_model.joblib
+#   - XGBoost_model.joblib
+#   - LightGBM_model.joblib
+#   - SVM_model.joblib
+#   - URLOnly_model.joblib
+#   - preprocessing_pipeline.joblib
+#   - url_preprocessing_pipeline.joblib
+#   - label_encoder.joblib
+#   - url_label_encoder.joblib
+#   - feature_schema.json
+#   - url_feature_schema.json
+#   - model_metadata.json

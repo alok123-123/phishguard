@@ -1,0 +1,10 @@
+# This file keeps the data/ directory in Git even though it's empty.
+# Dataset CSV files are listed in .gitignore (too large for Git).
+#
+# TO USE THIS PROJECT:
+#   1. Download the primary dataset from:
+#      https://data.mendeley.com/datasets/c2gw7fy2j4/3
+#   2. Place the CSV file here as:
+#      data/dataset_phishing.csv
+#
+# See README.md for detailed download instructions.

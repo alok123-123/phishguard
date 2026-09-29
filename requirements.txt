@@ -1,0 +1,31 @@
+# PhishGuard — Python Dependencies
+# Install with:  python -m pip install -r requirements.txt
+#
+# Tested with Python 3.9–3.13
+# (Python 3.13 users: use the versions below — all confirmed compatible)
+
+# ─── Data processing ───
+pandas>=1.5.0
+numpy>=1.23.0
+
+# ─── Machine learning ───
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+
+# ─── Explainability ───
+shap>=0.42.0
+lime>=0.2.0
+
+# ─── Visualization ───
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ─── Web application ───
+streamlit>=1.28.0
+
+# ─── Model serialization ───
+joblib>=1.2.0
+
+# ─── Testing ───
+pytest>=7.0.0
