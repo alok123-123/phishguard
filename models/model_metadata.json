@@ -1,5 +1,5 @@
 {
-  "training_date": "2026-09-29T19:30:31.509332",
+  "training_date": "2026-09-30T20:27:30.828044",
   "dataset_path": "C:\\Users\\Alok\\Downloads\\phising detection\\data\\dataset_phishing.csv",
   "random_seed": 42,
   "n_train_samples": 7878,
@@ -104,7 +104,7 @@
     "RandomForest": {
       "val_accuracy": 0.9668,
       "val_f1": 0.9668,
-      "train_time_seconds": 0.56,
+      "train_time_seconds": 0.61,
       "skipped": false
     },
     "XGBoost": {
@@ -122,7 +122,7 @@
     "SVM": {
       "val_accuracy": 0.595,
       "val_f1": 0.5616,
-      "train_time_seconds": 21.74,
+      "train_time_seconds": 38.77,
       "skipped": false
     }
   }
